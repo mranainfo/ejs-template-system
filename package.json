@@ -1,0 +1,27 @@
+{
+  "name": "handlebars-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ejs-cli --base-dir pages *.ejs --out public",
+    "css": "postcss styles/tailwind.css -o public/css/styles.css --verbose --env production",
+    "dev": "live-server public",
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.6",
+    "ejs-cli": "^2.2.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.3.1",
+    "tailwindcss": "^2.1.4"
+  }
+}
